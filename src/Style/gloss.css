@@ -1,0 +1,86 @@
+.gloss_wrapper {
+    display: flex;
+
+    gap: 81px;
+}
+
+.glos_content {
+    /* border: 1px solid black; */
+    width: 788px;
+    height: 870px;
+}
+
+.glos_content h2 {
+    color: #222;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    text-transform: uppercase;
+    margin: 120px 260px 24px;
+}
+
+.glos_content h5 {
+    color: #222;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.glos_content .gloss_span {
+    width: 257px;
+    height: 2px;
+    background: #7373D7;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    margin-left: 265px;
+}
+
+.glos_content p {
+    color: #222;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+}
+
+.gloss_grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 62px;
+    gap: 24px;
+}
+
+.gloss_card {
+    width: 193px;
+    height: 178px;
+    background: #E9E9FF;
+    gap: 24px;
+}
+
+.gloss_card h4 {
+    color: #222;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160%;
+    text-transform: uppercase;
+}
+
+.gloss_card .card {
+    padding: 40px 66px 19px 67px;
+}
+
+.gloss_wrapper .gloss_img {
+    width: 652px;
+    height: 977.881px;
+    flex-shrink: 0;
+}

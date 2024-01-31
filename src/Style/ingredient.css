@@ -1,0 +1,91 @@
+.ingredient_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ingredient_text {
+    display: flex;
+    width: 720px;
+    height: 828px;
+    padding: 80px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.ingredient_text h2 {
+    color: #222;
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    text-transform: uppercase;
+}
+
+.ingredient_text p {
+    color: #222;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+}
+
+.ingredient_text h5 {
+    color: #7373D7;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.ingredient_text .span {
+    width: 85px;
+    height: 2px;
+    background-color: #7373D7;
+    position: absolute;
+    margin-top: 330px;
+}
+
+.ingredient_text span {
+    width: 207px;
+    height: 2px;
+    background-color: #7373D7;
+    position: absolute;
+    margin-top: 385px;
+}
+
+.ingredient_text image {
+    width: 1104px;
+}
+
+.ingredient_wrapper h4 {
+    color: #222;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%;
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+
+@media (max-width:1226px) {
+    
+        .ingredient_text span {
+            margin-top: 400px;
+        }
+    
+        .ingredient_text .span {
+            margin-top: 420px;
+        }
+}

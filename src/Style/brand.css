@@ -1,0 +1,80 @@
+.brand_text h5 {
+    color: #222;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+    text-transform: uppercase;
+    margin: 0 auto;
+    margin-top: 80px;
+    margin-bottom: 16px;
+}
+
+.brand_text h4 {
+    color: #7373D7;
+    text-align: center;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    text-transform: uppercase;
+}
+
+.brand_text p {
+    color: #7373D7;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+    text-transform: uppercase;
+}
+
+.brand_text h3 {
+    color: #222;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 91px;
+}
+
+.brand_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.brand_card h4 {
+    color: #222;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+    text-transform: uppercase;
+    margin-top: 22px;
+}
+
+.brand_card p {
+    color: #222;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    margin-top: 8px;
+    margin-bottom: 90px;
+}
+
+.brand_card{
+    display: inline-flex;
+    padding: 37px 24px 32px 24px;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    /* gap: 22px; */
+}
